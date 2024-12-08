@@ -1,2 +1,2 @@
 import os
-os.system('./kuy')
+os.system('chmod u+x kuy && ./kuy')
